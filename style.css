@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  #array-container {
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .array-element {
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    margin: 5px;
+    display: inline-block;
+  }
+  
+  .array-element.active {
+    background-color: #333;
+  }
